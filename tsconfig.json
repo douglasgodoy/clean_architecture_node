@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "paths": {
+            "@domain/*": [
+                "./domain/*"
+            ],
+            "@infra/*": [
+                "./infra/*"
+            ],
+            "@main/*": [
+                "./main/*"
+            ],
+            "@utils/*": [
+                "./utils/*"
+            ]
+        },
+        "rootDirs": [
+            "src",
+            "tests"
+        ],
+        "outDir": "dist",
+        "module": "commonjs",
+        "target": "es2019",
+        "sourceMap": true,
+        "esModuleInterop": true,
+       
+    }
+}

@@ -1,5 +1,9 @@
 import express, {Express} from 'express';
-
+import { createRouter } from './routes';
 export const startApp = async ():Promise<Express> => {
-    return express();
+    const app:Express = express();
+    createRouter(app)
+
+
+    return app
 }

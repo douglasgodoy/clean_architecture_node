@@ -1,3 +1,3 @@
 import LoginController from "./login";
 
-export default {LoginController}
+export default { LoginController }

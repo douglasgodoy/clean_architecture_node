@@ -1,6 +1,6 @@
 import { HttpRequest, HttpResponse } from "@domain/Http"
 
-export default (req:HttpRequest,res:HttpResponse):void => {
-    res.send({error:false})
-  
+export default (req: HttpRequest, res: HttpResponse): void => {
+    res.send({ error: false })
+
 }
